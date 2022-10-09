@@ -1,0 +1,43 @@
+
+ body {
+  background-color:#f2f2f2;
+}
+
+.logo{
+   font-family: 'Bungee Shade', cursive;
+   font-size: 25px;
+}
+
+.landing {
+  background: url('/images/coder.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+ 
+
+.greenborder{
+  border-bottom-style:solid !important ;
+  border-width:6px;
+  border-bottom-color:darkcyan !important;
+}
+
+.navbar{
+    border-bottom-style:solid !important ;
+    border-width:6px;
+    border-bottom-color:darkcyan !important;
+  }
+  .navbar .navbar-collapse {
+    /*positioning*/
+    text-align: right;
+  }
+ 
+  .footer{
+    border-top:thick solid;
+    border-width: 6px;
+    border-top-color: darkcyan !important;
+  }
+  
+  
